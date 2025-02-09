@@ -163,3 +163,102 @@ body {
     height: 30px;
     margin: 0 10px;
   }
+
+  /* Media Queries for Mobile and Tablet */
+@media (max-width: 1024px) {
+  /* Tablet Styles */
+  .header-content {
+    padding: 15px;
+  }
+
+  .video-grid {
+    flex-wrap: wrap;
+  }
+
+  .video-card {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+
+  .benefits-grid {
+    flex-wrap: wrap;
+  }
+
+  .benefit {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+
+  .testimonial-grid {
+    flex-wrap: wrap;
+  }
+
+  .testimonial {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Mobile Styles */
+  header {
+    height: 80vh;
+  }
+
+  .header-content h1 {
+    font-size: 2rem;
+  }
+
+  .header-content p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  #about, #videos, #why, #testimonials, #subscribe {
+    padding: 30px 20px;
+  }
+
+  .video-grid {
+    flex-direction: column;
+  }
+
+  .video-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .video-card iframe {
+    height: 150px;
+  }
+
+  .benefits-grid {
+    flex-direction: column;
+  }
+
+  .benefit {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .testimonial-grid {
+    flex-direction: column;
+  }
+
+  .testimonial {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    padding: 15px;
+  }
+
+  .social-links img {
+    width: 25px;
+    height: 25px;
+  }
+}
